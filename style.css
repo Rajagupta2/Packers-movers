@@ -1,0 +1,224 @@
+body{
+    /*border: rgb(14, 14, 14) 2px solid;*/
+    height: 500px;
+    background-color: cadetblue;
+}
+.navigation{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 14, 14);
+    color: #ffa404;
+    border-radius: 2px 2px 0px 0px;
+    height: 80px;
+}
+.logo{
+    border: 2px solid black;
+    display: flex;
+}
+.logo > *{
+    margin: auto;
+}
+.logo img{
+    border-right: solid 2px beige;
+    padding-right: 10px;
+}
+.logo h1{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.links{
+    border: 2px solid black;
+}
+.links ul{
+    display:flex;
+    gap:17px;
+    margin-top: 30px;
+}
+.links ul a{
+    text-decoration: none;
+    color:aliceblue;
+    margin:auto;
+}
+.links ul a:hover{
+    color: #fcc404;
+    background-color: #f34434;
+    padding: 10px;
+    border-radius: 10px;
+}
+.home{
+    border: #fcc404 solid 2px;
+    min-height: 450px;
+    padding: 20px;
+    background: url(https://c8.alamy.com/comp/2HG3G1X/adult-boy-and-girl-moving-carton-box-house-shifting-2HG3G1X.jpg);
+    background-size: 100% 100%;
+    margin-top: 10px;
+}
+.welcome-message{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 20px; 
+}
+.welcome-message h2{
+    text-transform: uppercase;
+}
+.available-services{
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to left rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5));
+    color:white;
+    text-decoration: none;
+    margin-top: 10px;
+    border: #fcc404 solid 2px;
+}
+.available-services:hover{
+    background-color: #ffa404;
+}
+.footer{
+    background: linear-gradient(to left, rgba(11, 11, 11, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    border: #fcc404 2px solid;
+    border-top: 0px;
+    margin: 20px 0px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.about{
+    border-right: #f34434 solid 2px;
+    margin-right: 20px;
+    padding-right: 20px;
+    color:aliceblue;
+}
+.social-handles{
+    color:aliceblue;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.social-handles ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.social-handles ul a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.social-handles ul a:hover{
+    border-bottom: #f34434 dotted 2px;
+    color: #fcc404;
+}
+.social-handles ul a img{
+    margin-right: 20px;
+}
+.social-handles ul a li{
+    list-style-type: none;
+}
+.contact{
+    border-left: solid #f34434 2px;
+    padding-left: 20px;
+    color:aliceblue;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+.contact form Input{
+    padding: 10px;
+}
+.submit-btn{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    color: aliceblue;
+    border-radius: 30px;
+    border: #fcc404 2px solid;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #fcc404;
+    color: black;
+}
+.services{
+    border:#fcc404 solid 2px;
+    margin-top: 10px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    color:#fcc404;
+    overflow-y: scroll;
+}
+.service h3, .search form{
+    margin: auto;
+    display: flex;
+}
+
+.search-form input{
+    width: 700px;
+    padding: 10px;
+    /*border-radius: 10px;*/
+}
+.service-card-section{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left:200px;
+}
+.service-card{
+    border: 2px black solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    text-decoration: none;
+    color:aliceblue;
+    gap:20px;
+}
+.service-card img{
+    width: inherit;
+    min-height:60px;
+}
+.service-description{
+    border-top: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.service-description>*{
+    margin: auto;
+}
+.request{
+    border:#fcc404 solid 2px;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.request-form{
+    display: flex;
+    flex-direction: column;
+    /*border:2px solid black;*/
+    margin: auto;
+    width:700px;
+    gap:10px;
+}
+.request-form input{
+    padding: 20px;
+
+}
+.request-form select{
+    padding: 20px;
+}
+.request-form .request-btn{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    color: aliceblue;
+}
+.request-form .request-btn:hover{
+    background-color: #fcc404;
+    color:aliceblue;
+}
+     
